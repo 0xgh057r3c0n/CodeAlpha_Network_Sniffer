@@ -1,92 +1,112 @@
-# Packet Sniffer Tool by 0xgh057r3c0n
+# 🚀 Packet Sniffer Tool by **0xgh057r3c0n**
 
-**Version 1.0**
-
-A GUI-based packet sniffer tool that captures and displays network packets in real-time. Built with Python3 using `tkinter` for the user interface and `scapy` for packet sniffing.
-
----
-
-## Features
-- **Real-Time Packet Capturing**: Sniffs `IP`, `TCP`, `UDP`, `ARP`, and `ICMP` packets.
-- **User-Friendly Interface**: Interactive GUI to display captured packets and view detailed information.
-- **Packet Details**: Displays source/destination IP, ports, protocol type, and payload data.
-- **Control Buttons**:
-  - **Start Sniffing**: Begin capturing network packets.
-  - **Stop Sniffing**: Halt packet capture.
-  - **Clear Results**: Clear the packet list and details view.
+**Version: 1.0**  
+A sleek and intuitive **GUI-based packet sniffer** to monitor and analyze network traffic in real-time. Built with the power of **Python 3**, featuring `tkinter` for the user interface and `scapy` for packet sniffing.
 
 ---
 
-## Requirements
+## ✨ Features
+🔹 **Real-Time Packet Capturing**: Sniffs common protocols like `IP`, `TCP`, `UDP`, `ARP`, and `ICMP`.  
+🔹 **User-Friendly Interface**: Easy-to-navigate GUI for displaying and analyzing packets.  
+🔹 **Detailed Insights**:
+- Source/Destination IP
+- Protocol Type
+- Ports
+- Payload Data  
 
-### Operating System
-- Linux, macOS, or Windows (packet sniffing may require administrative privileges).
-
-### Software
-- **Python 3.x** (tested with Python 3.6+)
-- **Dependencies**:
-  - `tkinter` (comes with Python)
-  - `scapy` (install via pip)
+🔹 **Control at Your Fingertips**:
+- **Start Sniffing**: Begin monitoring network packets effortlessly.  
+- **Stop Sniffing**: Pause the capture anytime.  
+- **Clear Results**: Reset the captured data with a click.  
 
 ---
 
-## Installation
+## 🖥️ Requirements
 
-1. Clone this repository or download the script:
+### 🖱️ Operating System:
+- Compatible with **Linux**, **macOS**, or **Windows**.  
+- Packet sniffing **requires administrative privileges**.
+
+### 🛠️ Software:
+- **Python 3.x** (Tested on Python 3.6+)
+- Python Libraries:
+  - `tkinter` (Included in Python)
+  - `scapy` (`pip install scapy`)
+
+---
+
+## 📥 Installation
+
+1. Clone the repository:  
    ```bash
    git clone https://github.com/0xgh057r3c0n/CodeAlpha_Network_Sniffer.git
-   cd network-sniffer-tool
+   cd CodeAlpha_Network_Sniffer
    ```
 
-2. Install required Python modules:
+2. Install required Python modules:  
    ```bash
    pip install scapy
    ```
 
 ---
 
-## Usage
+## ▶️ Usage
 
-1. Run the script with Python 3:
+1. Run the script with **Python 3**:  
    ```bash
    sudo python3 network_sniffer.py
    ```
-   **Note**: Administrative/root privileges are often required for packet sniffing.
+   > **Note**: Administrative/root privileges are required for packet sniffing.  
 
-2. Use the GUI:
-   - Click **Start Sniffing** to begin capturing packets.
-   - Double-click a packet in the table to view detailed information.
-   - Use **Stop Sniffing** to halt capturing.
-   - Use **Clear Results** to reset the display.
-
----
-
-## Screenshots
-**Main Interface**  
-![Main Interface](screenshot.png)
+2. Interact with the GUI:
+   - 🟢 **Start Sniffing**: Begin capturing packets.
+   - 🔍 **Double-Click** on a packet to view its detailed breakdown.
+   - 🔴 **Stop Sniffing**: Halt the packet capture.
+   - 🧹 **Clear Results**: Remove displayed packet data.
 
 ---
 
-## Known Issues and Limitations
-- Capturing may require administrative privileges (`sudo`).
-- High traffic environments may affect performance.
-- Only supports basic protocols (`IP`, `TCP`, `UDP`, `ARP`, `ICMP`) at this stage.
+## 📸 Screenshots
+
+### **Main Interface**  
+![Main Interface](screenshot.png)  
+
+> For more visuals, visit the **Screenshots** folder.
 
 ---
 
-## Contributing
-Feel free to fork this repository, make enhancements, and submit a pull request. Contributions are welcome!
+## ⚠️ Known Issues & Limitations
+
+- **Privileges**: Requires `sudo` or administrative privileges to access network interfaces.
+- **Performance**: High network traffic environments may impact performance.
+- **Protocol Support**: Limited to basic protocols (`IP`, `TCP`, `UDP`, `ARP`, `ICMP`).
 
 ---
 
-## License
-This project is licensed under the GNU General Public License v3.0 License. See the LICENSE file for details.
+## 🤝 Contributing
+
+Contributions are **welcome**!  
+- Fork this repository.  
+- Implement new features or fixes.  
+- Submit a **pull request** for review.
+
+Let’s build something awesome together! 💻
 
 ---
 
-## Disclaimer
-This tool is for educational and ethical purposes only. Unauthorized use to intercept or analyze network traffic may violate local laws and regulations.
+## 📜 License
+
+This project is licensed under the **GNU General Public License v3.0**.  
+For details, see the [LICENSE](LICENSE) file.
 
 ---
 
-**Developed by 0xgh057r3c0n**
+## ⚠️ Disclaimer
+
+This tool is developed for **educational and ethical purposes only**.  
+> Misuse of this tool to intercept or analyze unauthorized network traffic may violate **local laws and regulations**. Always ensure you have the required permissions.
+
+---
+
+**🛡️ Developed with ❤️ by 0xgh057r3c0n**  
+**Connect & Follow**: [GitHub](https://github.com/0xgh057r3c0n) | [Twitter](https://x.com/0xgh057r3c0n) | [LinkedIn](https://www.linkedin.com/in/gaurav-bhattacharjee/)
